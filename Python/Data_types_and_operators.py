@@ -109,7 +109,7 @@
 # print(len([]))
 # example
 # defining a list and assigning it to a variable
-my_stingy_landlords = ['Alfredo', 'Betty', 'Joanna', 'Mr. Summersbee', 123, True]
+# my_stingy_landlords = ['Alfredo', 'Betty', 'Joanna', 'Mr. Summersbee', 123, True]
 #             index = [   0     ,    1   ,    2     ,      3         ]
 
 # print all of the list
@@ -129,30 +129,30 @@ my_stingy_landlords = ['Alfredo', 'Betty', 'Joanna', 'Mr. Summersbee', 123, True
 # print(my_cringy_landlords[-1])
 
 # Re-assign an entry
-my_stingy_landlords = ['Alfredo', 'Betty', 'Joanna', 'Mr. Summersbee', 123, True]
-print(my_stingy_landlords)
-my_stingy_landlords[-2] = "Patrick"
-print(my_stingy_landlords)
-my_stingy_landlords[-1]= "Hotel of Mum and Dad"
-print(my_stingy_landlords)
+# my_stingy_landlords = ['Alfredo', 'Betty', 'Joanna', 'Mr. Summersbee', 123, True]
+# print(my_stingy_landlords)
+# my_stingy_landlords[-2] = "Patrick"
+# print(my_stingy_landlords)
+# my_stingy_landlords[-1]= "Hotel of Mum and Dad"
+# print(my_stingy_landlords)
 
 # Remove an entry from a list
 # remove "Hotel of Mum and Dad"
-my_stingy_landlords.pop()
-print(my_stingy_landlords)
-# add an entry to the list
-my_stingy_landlords.append('Filipe Paiva')
-print(my_stingy_landlords)
-# Filipe Paiva to the list
+# my_stingy_landlords.pop()
+# print(my_stingy_landlords)
+# # add an entry to the list
+# my_stingy_landlords.append('Filipe Paiva')
+# print(my_stingy_landlords)
+# # Filipe Paiva to the list
 
 # Remove entry and index 3
 # what method?
 # where in the documentation
-## include 2 Joannas
-my_stingy_landlords.append('Joanna')
-print(my_stingy_landlords)
-# delete entry
-my_stingy_landlords.remove('Joanna')
-# With a pop you can indicate index
-my_stingy_landlords.pop(3)
-print(my_stingy_landlords)
+# ## include 2 Joannas
+# my_stingy_landlords.append('Joanna')
+# print(my_stingy_landlords)
+# # delete entry
+# my_stingy_landlords.remove('Joanna')
+# # With a pop you can indicate index
+# my_stingy_landlords.pop(3)
+# print(my_stingy_landlords)
