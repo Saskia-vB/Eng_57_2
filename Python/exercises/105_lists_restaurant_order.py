@@ -20,7 +20,7 @@
 # starter code
 menu = ['falafel', 'HuMMus', 'coUScous', 'Bacalhau a Bras']
 food_order = []
-
+#for loop
 
 # I need to print each item from the list
 # print(menu[0])
