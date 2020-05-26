@@ -1,15 +1,16 @@
 # Write a bizz and zzuu game ##project
 
 # as a user I should be able prompted for a number, as the program will print all the number up to and inclusing said number while following the constraints / specs. (bizz and buzz for multiples or 3 and 5)
-# number= str(input("Choose a number:"))
-# print[O,number]
-# for x in number:
-#     if (number % 5) == "0":
-#         print("buzz")
-#     elif (number % 3)== "0":
-#         print("bizz")
-#     else:
-#         print("You lost")
+number= int(input("Choose a number:"))
+print(range(number(int(input()))))
+# print(number(range(int(input())),sep='')
+for x in number:
+    if (number % 5) == "0":
+        print("buzz")
+    elif (number % 3)== "0":
+        print("bizz")
+    else:
+        print("You lost")
 
 # As a user I should be able to keep giving the program different numbers and it will calculate appropriately until you use the key word: 'penpinapplespen'
 
@@ -26,5 +27,6 @@
 #  make it so I can it so it can work with 4 and 9 insted of 3 and 5.
     #      make it so it can work with any number!
 
-first_name="Ada"
-print(first_name, "is learning Python")
+print ("I'm going to print the numbers!")
+i = int(input("Enter the number: "))
+func(i)
