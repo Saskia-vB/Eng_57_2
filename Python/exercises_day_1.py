@@ -19,11 +19,20 @@ print("Hello",name,last_name,"! Welcome, your age is",age,", your eyes are",eye_
 #Section 2 - Calculate in what year was the person born? and responde back.
 # print something like: 'You said you we're 28 hence you were born in 1991!'
 
-# def yearborn(age):
-#     cur_year =datetime.datetime.now()
-#     born= cur_year.year - age
-#     return born
-# print("You are born in", yearborn(age))
+from datetime import date
+def year_born(age):
+        today = date.today()
+        return today.year - age
+        print(year_born(age))
+print("You said you were", age, "hence you were born in", year_born(age))
+
+# age=input('How old are you,' + first_name + '?')
+# birthday_gone= input('Has your birthday passed this year? Yes/no')
+# if birthday_gone== 'Yes':
+#         birthday_gone=0
+# else:
+#         birthday_gone =1
+# birth_year = 2020 - int(age) - birthday_gone
 
 #Extra - Cast your input
 #

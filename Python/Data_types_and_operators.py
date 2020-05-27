@@ -106,7 +106,7 @@ print(""==None)
 print(type([]))
 print(len([]))
 # example
-defining a list and assigning it to a variable
+# defining a list and assigning it to a variable
 my_stingy_landlords = ['Alfredo', 'Betty', 'Joanna', 'Mr. Summersbee', 123, True]
               index = [   0     ,    1   ,    2     ,      3         ]
 
