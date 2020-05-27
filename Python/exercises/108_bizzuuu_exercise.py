@@ -2,7 +2,7 @@
 
 # as a user I should be able prompted for a number, as the program will print all the number up to and inclusing said number while following the constraints / specs. (bizz and buzz for multiples or 3 and 5)
 number= int(input("Choose a number:"))
-print(range(number(int(input()))))
+# print(range(number(int(input()))))
 # print(number(range(int(input())),sep='')
 for x in number:
     if (number % 5) == "0":
