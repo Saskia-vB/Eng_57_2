@@ -154,3 +154,10 @@ my_stingy_landlords.remove('Joanna')
 # # With a pop you can indicate index
 my_stingy_landlords.pop(3)
 print(my_stingy_landlords)
+
+
+# Range
+range(9) # this will list all numbers up to 9 but not including 9 (like the index it starts at 0)
+# to include the number inputted
+number= input("Choose a number")
+range(1,int(number)+1))

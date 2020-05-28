@@ -19,3 +19,8 @@ print(story1['end'])
     # 'hero': yourSuperHero
 story1['hero']="Spiderman"
 print(story1)
+
+# idiomatic
+for key in story1.keys():
+    print(key)
+    print(story1[key])
