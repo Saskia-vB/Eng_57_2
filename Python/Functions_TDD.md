@@ -34,6 +34,7 @@ EPIC vs user story: "As a user, I want to be able to <overall project aim>"
   
 
 ### TDD & testing
+- Test Driven Development
 - Testing individual blocks of code to verify functionality
 
 pros:
